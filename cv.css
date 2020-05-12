@@ -1,0 +1,226 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    font-family: Roboto;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: #efefef;
+}
+
+nav{
+    margin-right: 300px;
+    width: 100%;
+    text-align: right;
+    margin: right;
+    background-color: #333;
+}
+nav a {
+    font-family: poppins;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 15px 17px;
+    display:inline-block;
+    text-align: center;
+}
+nav a:hover{
+    color: #000;
+    background-color: #ddd;
+}
+
+body .judul{
+    padding: 10px;
+    background: rgb(36, 71, 148);
+    padding: 30px;
+    text-align: center;
+    font-family:'poppins';
+    src:url('poppins.ttf');
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.mypro{
+    margin-left: 30px;
+    padding: 15px;
+    width: 35%;
+    height: 50%;
+    float : left;
+}
+
+.myprofile img{
+    width: 100%;
+    height: 100%;
+}
+
+.about{
+    margin-left: 15px;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.about p{
+    font-family: poppins;
+}
+
+.infoprofile{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    font-size: 25px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.infoprofile h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sosmed img{
+    height: 40px;
+    margin-right: 15px;
+}
+
+.sosmed{
+    margin-top: 20px;
+    margin-left: 15px ;
+}
+
+.infoprofile h2{
+    font-family: poppins;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.infoprofile h2 h3 h4 p b small h5{
+    font-family: poppins;
+}
+
+.exp1 img{
+    margin: 10px;
+    height: 100px;
+}
+
+.exp1{
+    display: inline-block;
+    width: 30%;
+    padding: 30px 30px;
+    margin: 5%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37,73, 0,18);
+    background: #fefefe;
+}
+
+.exp1 small{
+    padding-top:10px ;
+    display: block;
+    font-size: 14px;
+}
+
+.exp2 img{
+    margin: 10px;
+    height: 100px;
+}
+
+.exp2{
+    display: inline-block;
+    width: 30%;
+    padding: 30px 30px;
+    margin: 5%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37,73, 0,18);
+    background: #fefefe;
+}
+
+.exp2 small{
+    padding-top:10px ;
+    display: block;
+    font-size: 14px;
+}
+
+.pengalaman img{
+    width: 30%;
+    padding: 5px ;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.tb{
+    font-size: 20px;
+    border: 1px solid #fefefe;
+    border-color: 1px #fff;
+    border-collapse: collapse;
+    width: 95%;
+    padding: 50px;
+    text-align: center;
+}
+
+.tb tr th{
+    background: #35A9DB;
+    color: #ffff;
+    font-weight: normal;
+    width: 120px;
+    padding: 30px;
+}
+
+.tb th td{
+    padding: 15px 30px;
+}
+
+.tb tr:hover{
+    background-color: #FFFF;
+    margin: 30px;
+}
+
+.tb tr:nth-child(:active){
+    background-color: #ffff;
+}
+.tb{
+    font-family: poppins;
+}
+
+.kontak img{
+    width: 30px;
+    margin: -8px 10px;
+    margin-left: -30px;
+}
+.kontak span{
+    margin: 5%;
+    display: block;
+}
+.kontak h5{
+    font-family: poppins;
+    padding: 7px;
+}
+.kontak{
+    margin-bottom: 20px;
+    margin: 5% 0% 5% 25%;
+    width: 60%;
+}
+
+@media only screen and(max-width:900px){
+    .infoprofile{
+        overflow: inherit;
+        width: 100%;
+    }
+    .mypro{
+        width: 100%;
+    }
+    .exp1{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .exp1 img{
+        height: 10%;
+        margin: 10px 0;
+    }
+    .exp2 img{
+        height: 10%;
+        margin: 10px 0;
+    }
+    .pengalaman img{
+        width: 48%;
+    }
+}

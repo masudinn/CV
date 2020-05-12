@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+nav{
+    background: 141615;
+    height: 70px;
+    width: 100%;
+}
+label.logo{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 70px;
+    padding: 0 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 15px;
+    padding-right: 60px;
+}
+nav ul li a{
+    font-size: 15px;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: unset;
+}
+a.active,a:hover{
+background: rgb(36, 71, 148);
+transition: .5s;
+}
+.button{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width : 955px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+}
+@media(max-width : 1065px){
+.button{
+    display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(8, 57, 148);
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    a:hover,a.active{
+        background: none;
+        color: rgb(66, 35, 35);
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+body{
+    background-image: url(bgg.jpg) ;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.present{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    min-height: 90vh;
+}
+.intro{
+    flex: 1;
+}
+.introtxt{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+   -webkit-background-clip: text;
+   background-clip: initial;
+   -webkit-text-fill-color: #fff;
+}
+.btn .BTNDLD{
+    font-size: 20px;
+    border: 3px solid rgb(36, 71, 148);
+    background: transparent;
+    color: #ffff;
+    width: 180px;
+    height: 50px;
+    font-family: poppins;
+    cursor: pointer;
+}
+.btn .BTNEX{
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    background:rgb(36, 71, 148); ;
+    color: #ffff;
+    width: 180px;
+    height: 50px;
+    font-family: poppins;
+    cursor: pointer;
+    margin: 30px 0 0 30px;
+}
+button{
+    font-family: poppins;
+}
