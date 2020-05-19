@@ -31,16 +31,15 @@ nav a:hover{
 }
 
 body .judul{
-    padding: 10px;
+    height: 15%;
     background: rgb(36, 71, 148);
-    padding: 30px;
+    padding: 15px;
     text-align: center;
     font-family:'poppins';
     src:url('poppins.ttf');
     color: #fff;
-    font-size: 30px;
+    font-size: 23px;
 }
-
 
 .mypro{
     margin-left: 30px;
@@ -69,13 +68,16 @@ body .judul{
     height: 100vh;
     float: left;
     font-size: 25px;
-    overflow: scroll;
-    overflow-x: hidden;
+    /* overflow: scroll;
+    overflow-x: hidden; */
 }
 
 .infoprofile h1{
     margin-top: 10px;
     margin-bottom: 30px;
+}
+.infoprofile h2{
+    margin-right: 35px;
 }
 
 .sosmed img{
