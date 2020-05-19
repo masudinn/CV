@@ -31,15 +31,20 @@ nav a:hover{
 }
 
 body .judul{
-    height: 15%;
+    height: 13%;
     background: rgb(36, 71, 148);
-    padding: 15px;
+    padding: 13px;
     text-align: center;
-    font-family:'poppins';
-    src:url('poppins.ttf');
     color: #fff;
     font-size: 23px;
 }
+.judul h2{
+    font-family:'poppins';
+    src:url('poppins.ttf');
+    font-style: bold;
+    font-size: 25px;
+}
+
 
 .mypro{
     margin-left: 30px;

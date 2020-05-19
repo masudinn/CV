@@ -6,19 +6,19 @@
     list-style: none;
     box-sizing: border-box;
 }
-body{
-    background: #efefef;
-}
 body .judul{
-    height: 20%;
+    height: 13%;
     background: rgb(36, 71, 148);
-    padding: 15px;
+    padding: 13px;
     text-align: center;
+    color: #fff;
+    font-size: 23px;
+}
+.judul h2{
     font-family:'poppins';
     src:url('poppins.ttf');
-    color: #fff;
-    font-size: 20px;
-
+    font-style: bold;
+    font-size: 25px;
 }
 .cards {
     margin: 0 auto;
@@ -38,52 +38,32 @@ body .judul{
 .card__image {
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    margin-top: 40px;
+    margin-top: 50px;
     width: 100%;
     height: 150px;
     object-fit: cover;
     display: block;
-    border-top: 2px solid white;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-}
-
-.card__content {
-    line-height: 1.5;
-    font-size: 0.9em;
-    padding: 15px;
-    background: #fafafa;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-}
-.card__content h4{
-   font-family:'poppins';
-   src:url('poppins.ttf');
-   font-size: 13px;
-   text-align: center;
-   margin-bottom: 7px;
 }
 
 .card__content > p:first-of-type {
     margin-top: 0;
+}
+.card__content h4{
+    font-size: 15px;
+    text-align: center;
+    font-family:'poppins';
+    src:url('poppins.ttf');
+}
+.card__content p{
+    font-size: 10px;
+    font-family:'poppins';
+    src:url('poppins.ttf');
 }
 
 .card__content > p:last-of-type {
     margin-bottom: 0;
 }
 
-.card__info {
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #555555;
-    background: #eeeeee;
-    font-size: 0.8em;
-    border-bottom: 1px solid white;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-}
 
 .card__info i {
     font-size: 0.9em;
